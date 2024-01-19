@@ -1,13 +1,27 @@
 /* font STyle */
-  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
+/* Basic Style */
+.btn_primary{
+  padding: 15px;
+  background-color: #FF900E;
+  border: 0;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.btn_primary:hover{
+  background-color: tomato;
+  transition: 2s ease all;
+}
+
+
 .header_section {
-  background-color: aqua;
+  background: rgba(255, 144, 14, 0.1);
   padding: 10px;
 }
 .logo {
@@ -15,15 +29,38 @@
   font-size: 45px;
   font-weight: 700;
 }
-.menu_item a{
+.menu_item a {
   text-decoration: none;
   margin-left: 50px;
+  font-size: 18px;
 }
-.menu_item a:hover{
+.menu_item a:hover {
   color: tomato;
 }
-.navigation{
+.navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Banner Section Styles */
+.banner_section {
+  background: rgba(255, 144, 14, 0.1);
+  padding-top: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.banner_section h2 {
+  color: #131313;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+}
+.banner_p{
+  width: 868px;
+  height: 52px;
+  text-align: center;
+  margin: 0 auto;
 }
