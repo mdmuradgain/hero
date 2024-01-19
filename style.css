@@ -1,0 +1,29 @@
+/* font STyle */
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+.header_section {
+  background-color: aqua;
+  padding: 10px;
+}
+.logo {
+  color: var#131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+.menu_item a{
+  text-decoration: none;
+  margin-left: 50px;
+}
+.menu_item a:hover{
+  color: tomato;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
